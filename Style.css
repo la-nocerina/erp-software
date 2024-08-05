@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	
+	padding:10px 10px 10px 10px;
+	text-align:left;
+	
+	background-image:url(img/background.png);
+	background-position:top;
+	background-repeat:repeat;
+	
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	font-variant:small-caps;
+	color:#FFF;
+}
+
+
+
+#menu{
+	height:26px;
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#000;
+	text-align:center;
+	position:relative;
+	padding:5px 0px 0px 0px;
+}
+	.gruppo{
+	z-index:9999999;
+	display:inline-block;
+	vertical-align:top;
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	color:#FFF;
+	width:240px;
+	
+	height:26px;
+	overflow:hidden;
+	}
+	.gruppo:hover{
+	background-color:#333;
+	height:auto;
+	}
+	.voci{
+	font-variant:small-caps;
+	}
+	
+table{
+	width:100%;
+	height:auto;
+	background-color:#333;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#FFF;
+}
+.tr1{
+	background-color:#454545;
+	
+}
+.tr2{
+	background-color:#4D5B54;
+}
+th{
+	background-color:#666;
+	
+}
+
+#btn_scegli_partner{
+	background-color:#333;
+	color:#FFF;
+	font:Georgia, "Times New Roman", Times, serif;
+	font-variant:small-caps;
+}
+
+.select{border:none; background-image:url(img/icon_select.png); background-color:transparent; background-position:center left; background-repeat:no-repeat; height:28px; width:100px;}
+.delete{border:none; background-image:url(img/icon_delete.png); background-color:transparent; background-position:center; background-repeat:no-repeat; height:28px; width:28px;}
+.add{border:none; background-image:url(img/icon_add.png); background-color:transparent; background-position:center; background-repeat:no-repeat; height:28px; width:28px;}
+.reset{border:none; background-image:url(img/icon_reset.png); background-color:transparent; background-position:center; background-repeat:no-repeat; height:28px; width:28px;}
+.submit{border:none; background-image:url(img/icon_ok.png); background-color:transparent; background-position:center; background-repeat:no-repeat; height:28px; width:28px;}
+.img{ border:none; margin-bottom:-8px; margin-left:10px; padding-right:5px;}
+a:link{color:#FFF; text-decoration:none; border:none;}
+a:visited{color:#FFF;text-decoration:none; border:none;}
+a:hover{color:#FFF;text-decoration:none; border:none;}
